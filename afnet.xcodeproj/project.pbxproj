@@ -15,6 +15,7 @@
 		CDFD0A0A1E1388CC00C5D8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFD0A081E1388CC00C5D8B9 /* LaunchScreen.storyboard */; };
 		CDFD0A151E1388CC00C5D8B9 /* afnetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD0A141E1388CC00C5D8B9 /* afnetTests.m */; };
 		CDFD0A201E1388CC00C5D8B9 /* afnetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD0A1F1E1388CC00C5D8B9 /* afnetUITests.m */; };
+		CDFD0A2F1E13921500C5D8B9 /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD0A2E1E13921500C5D8B9 /* MainModel.m */; };
 		F5D6000339505567BA1D5C3D /* libPods-afnet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B2D73266C58B28D94D480 /* libPods-afnet.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		CDFD0A1B1E1388CC00C5D8B9 /* afnetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = afnetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFD0A1F1E1388CC00C5D8B9 /* afnetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = afnetUITests.m; sourceTree = "<group>"; };
 		CDFD0A211E1388CC00C5D8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFD0A2D1E13921500C5D8B9 /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
+		CDFD0A2E1E13921500C5D8B9 /* MainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
 		E19372A8BD0D385D2CF547FC /* Pods-afnet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-afnet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-afnet/Pods-afnet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +132,8 @@
 				CDFD09FE1E1388CC00C5D8B9 /* AppDelegate.m */,
 				CDFD0A001E1388CC00C5D8B9 /* ViewController.h */,
 				CDFD0A011E1388CC00C5D8B9 /* ViewController.m */,
+				CDFD0A2D1E13921500C5D8B9 /* MainModel.h */,
+				CDFD0A2E1E13921500C5D8B9 /* MainModel.m */,
 				CDFD0A031E1388CC00C5D8B9 /* Main.storyboard */,
 				CDFD0A061E1388CC00C5D8B9 /* Assets.xcassets */,
 				CDFD0A081E1388CC00C5D8B9 /* LaunchScreen.storyboard */,
@@ -349,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFD0A2F1E13921500C5D8B9 /* MainModel.m in Sources */,
 				CDFD0A021E1388CC00C5D8B9 /* ViewController.m in Sources */,
 				CDFD09FF1E1388CC00C5D8B9 /* AppDelegate.m in Sources */,
 				CDFD09FC1E1388CC00C5D8B9 /* main.m in Sources */,
