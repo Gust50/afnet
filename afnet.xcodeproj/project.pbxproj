@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDFD09FC1E1388CC00C5D8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD09FB1E1388CC00C5D8B9 /* main.m */; };
+		CDFD09FF1E1388CC00C5D8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD09FE1E1388CC00C5D8B9 /* AppDelegate.m */; };
+		CDFD0A021E1388CC00C5D8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD0A011E1388CC00C5D8B9 /* ViewController.m */; };
+		CDFD0A051E1388CC00C5D8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFD0A031E1388CC00C5D8B9 /* Main.storyboard */; };
+		CDFD0A071E1388CC00C5D8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFD0A061E1388CC00C5D8B9 /* Assets.xcassets */; };
+		CDFD0A0A1E1388CC00C5D8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFD0A081E1388CC00C5D8B9 /* LaunchScreen.storyboard */; };
+		CDFD0A151E1388CC00C5D8B9 /* afnetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD0A141E1388CC00C5D8B9 /* afnetTests.m */; };
+		CDFD0A201E1388CC00C5D8B9 /* afnetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD0A1F1E1388CC00C5D8B9 /* afnetUITests.m */; };
+		F5D6000339505567BA1D5C3D /* libPods-afnet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B2D73266C58B28D94D480 /* libPods-afnet.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDFD0A111E1388CC00C5D8B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDFD09EF1E1388CC00C5D8B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDFD09F61E1388CC00C5D8B9;
+			remoteInfo = afnet;
+		};
+		CDFD0A1C1E1388CC00C5D8B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDFD09EF1E1388CC00C5D8B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDFD09F61E1388CC00C5D8B9;
+			remoteInfo = afnet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D91A9B7711F72812F036ABB /* Pods-afnet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-afnet.release.xcconfig"; path = "Pods/Target Support Files/Pods-afnet/Pods-afnet.release.xcconfig"; sourceTree = "<group>"; };
+		644B2D73266C58B28D94D480 /* libPods-afnet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-afnet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFD09F71E1388CC00C5D8B9 /* afnet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = afnet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFD09FB1E1388CC00C5D8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDFD09FD1E1388CC00C5D8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDFD09FE1E1388CC00C5D8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDFD0A001E1388CC00C5D8B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDFD0A011E1388CC00C5D8B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDFD0A041E1388CC00C5D8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDFD0A061E1388CC00C5D8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDFD0A091E1388CC00C5D8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDFD0A0B1E1388CC00C5D8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFD0A101E1388CC00C5D8B9 /* afnetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = afnetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFD0A141E1388CC00C5D8B9 /* afnetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = afnetTests.m; sourceTree = "<group>"; };
+		CDFD0A161E1388CC00C5D8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFD0A1B1E1388CC00C5D8B9 /* afnetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = afnetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFD0A1F1E1388CC00C5D8B9 /* afnetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = afnetUITests.m; sourceTree = "<group>"; };
+		CDFD0A211E1388CC00C5D8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19372A8BD0D385D2CF547FC /* Pods-afnet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-afnet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-afnet/Pods-afnet.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDFD09F41E1388CC00C5D8B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D6000339505567BA1D5C3D /* libPods-afnet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFD0A0D1E1388CC00C5D8B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFD0A181E1388CC00C5D8B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		882FF6EB35FC09564B26E2C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E19372A8BD0D385D2CF547FC /* Pods-afnet.debug.xcconfig */,
+				2D91A9B7711F72812F036ABB /* Pods-afnet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9990837ED845D2267B2D2215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				644B2D73266C58B28D94D480 /* libPods-afnet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDFD09EE1E1388CC00C5D8B9 = {
+			isa = PBXGroup;
+			children = (
+				CDFD09F91E1388CC00C5D8B9 /* afnet */,
+				CDFD0A131E1388CC00C5D8B9 /* afnetTests */,
+				CDFD0A1E1E1388CC00C5D8B9 /* afnetUITests */,
+				CDFD09F81E1388CC00C5D8B9 /* Products */,
+				882FF6EB35FC09564B26E2C7 /* Pods */,
+				9990837ED845D2267B2D2215 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDFD09F81E1388CC00C5D8B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD09F71E1388CC00C5D8B9 /* afnet.app */,
+				CDFD0A101E1388CC00C5D8B9 /* afnetTests.xctest */,
+				CDFD0A1B1E1388CC00C5D8B9 /* afnetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDFD09F91E1388CC00C5D8B9 /* afnet */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD09FD1E1388CC00C5D8B9 /* AppDelegate.h */,
+				CDFD09FE1E1388CC00C5D8B9 /* AppDelegate.m */,
+				CDFD0A001E1388CC00C5D8B9 /* ViewController.h */,
+				CDFD0A011E1388CC00C5D8B9 /* ViewController.m */,
+				CDFD0A031E1388CC00C5D8B9 /* Main.storyboard */,
+				CDFD0A061E1388CC00C5D8B9 /* Assets.xcassets */,
+				CDFD0A081E1388CC00C5D8B9 /* LaunchScreen.storyboard */,
+				CDFD0A0B1E1388CC00C5D8B9 /* Info.plist */,
+				CDFD09FA1E1388CC00C5D8B9 /* Supporting Files */,
+			);
+			path = afnet;
+			sourceTree = "<group>";
+		};
+		CDFD09FA1E1388CC00C5D8B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD09FB1E1388CC00C5D8B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDFD0A131E1388CC00C5D8B9 /* afnetTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD0A141E1388CC00C5D8B9 /* afnetTests.m */,
+				CDFD0A161E1388CC00C5D8B9 /* Info.plist */,
+			);
+			path = afnetTests;
+			sourceTree = "<group>";
+		};
+		CDFD0A1E1E1388CC00C5D8B9 /* afnetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD0A1F1E1388CC00C5D8B9 /* afnetUITests.m */,
+				CDFD0A211E1388CC00C5D8B9 /* Info.plist */,
+			);
+			path = afnetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDFD09F61E1388CC00C5D8B9 /* afnet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFD0A241E1388CC00C5D8B9 /* Build configuration list for PBXNativeTarget "afnet" */;
+			buildPhases = (
+				A685CC1DFE213DA7BD3BCAD2 /* [CP] Check Pods Manifest.lock */,
+				CDFD09F31E1388CC00C5D8B9 /* Sources */,
+				CDFD09F41E1388CC00C5D8B9 /* Frameworks */,
+				CDFD09F51E1388CC00C5D8B9 /* Resources */,
+				770D75CA4FC42E7CEE61E451 /* [CP] Embed Pods Frameworks */,
+				541551B13F8C203617CBD8C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = afnet;
+			productName = afnet;
+			productReference = CDFD09F71E1388CC00C5D8B9 /* afnet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDFD0A0F1E1388CC00C5D8B9 /* afnetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFD0A271E1388CC00C5D8B9 /* Build configuration list for PBXNativeTarget "afnetTests" */;
+			buildPhases = (
+				CDFD0A0C1E1388CC00C5D8B9 /* Sources */,
+				CDFD0A0D1E1388CC00C5D8B9 /* Frameworks */,
+				CDFD0A0E1E1388CC00C5D8B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDFD0A121E1388CC00C5D8B9 /* PBXTargetDependency */,
+			);
+			name = afnetTests;
+			productName = afnetTests;
+			productReference = CDFD0A101E1388CC00C5D8B9 /* afnetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDFD0A1A1E1388CC00C5D8B9 /* afnetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFD0A2A1E1388CC00C5D8B9 /* Build configuration list for PBXNativeTarget "afnetUITests" */;
+			buildPhases = (
+				CDFD0A171E1388CC00C5D8B9 /* Sources */,
+				CDFD0A181E1388CC00C5D8B9 /* Frameworks */,
+				CDFD0A191E1388CC00C5D8B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDFD0A1D1E1388CC00C5D8B9 /* PBXTargetDependency */,
+			);
+			name = afnetUITests;
+			productName = afnetUITests;
+			productReference = CDFD0A1B1E1388CC00C5D8B9 /* afnetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDFD09EF1E1388CC00C5D8B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Gust50;
+				TargetAttributes = {
+					CDFD09F61E1388CC00C5D8B9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 88UGLVT78T;
+						ProvisioningStyle = Automatic;
+					};
+					CDFD0A0F1E1388CC00C5D8B9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDFD09F61E1388CC00C5D8B9;
+					};
+					CDFD0A1A1E1388CC00C5D8B9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDFD09F61E1388CC00C5D8B9;
+					};
+				};
+			};
+			buildConfigurationList = CDFD09F21E1388CC00C5D8B9 /* Build configuration list for PBXProject "afnet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDFD09EE1E1388CC00C5D8B9;
+			productRefGroup = CDFD09F81E1388CC00C5D8B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDFD09F61E1388CC00C5D8B9 /* afnet */,
+				CDFD0A0F1E1388CC00C5D8B9 /* afnetTests */,
+				CDFD0A1A1E1388CC00C5D8B9 /* afnetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDFD09F51E1388CC00C5D8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFD0A0A1E1388CC00C5D8B9 /* LaunchScreen.storyboard in Resources */,
+				CDFD0A071E1388CC00C5D8B9 /* Assets.xcassets in Resources */,
+				CDFD0A051E1388CC00C5D8B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFD0A0E1E1388CC00C5D8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFD0A191E1388CC00C5D8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		541551B13F8C203617CBD8C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-afnet/Pods-afnet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		770D75CA4FC42E7CEE61E451 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-afnet/Pods-afnet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A685CC1DFE213DA7BD3BCAD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDFD09F31E1388CC00C5D8B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFD0A021E1388CC00C5D8B9 /* ViewController.m in Sources */,
+				CDFD09FF1E1388CC00C5D8B9 /* AppDelegate.m in Sources */,
+				CDFD09FC1E1388CC00C5D8B9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFD0A0C1E1388CC00C5D8B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFD0A151E1388CC00C5D8B9 /* afnetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFD0A171E1388CC00C5D8B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFD0A201E1388CC00C5D8B9 /* afnetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDFD0A121E1388CC00C5D8B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDFD09F61E1388CC00C5D8B9 /* afnet */;
+			targetProxy = CDFD0A111E1388CC00C5D8B9 /* PBXContainerItemProxy */;
+		};
+		CDFD0A1D1E1388CC00C5D8B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDFD09F61E1388CC00C5D8B9 /* afnet */;
+			targetProxy = CDFD0A1C1E1388CC00C5D8B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDFD0A031E1388CC00C5D8B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFD0A041E1388CC00C5D8B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDFD0A081E1388CC00C5D8B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFD0A091E1388CC00C5D8B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDFD0A221E1388CC00C5D8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDFD0A231E1388CC00C5D8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDFD0A251E1388CC00C5D8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19372A8BD0D385D2CF547FC /* Pods-afnet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 88UGLVT78T;
+				INFOPLIST_FILE = afnet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Xtiger.afnet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDFD0A261E1388CC00C5D8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D91A9B7711F72812F036ABB /* Pods-afnet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 88UGLVT78T;
+				INFOPLIST_FILE = afnet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Xtiger.afnet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDFD0A281E1388CC00C5D8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = afnetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Xtiger.afnetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/afnet.app/afnet";
+			};
+			name = Debug;
+		};
+		CDFD0A291E1388CC00C5D8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = afnetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Xtiger.afnetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/afnet.app/afnet";
+			};
+			name = Release;
+		};
+		CDFD0A2B1E1388CC00C5D8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = afnetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Xtiger.afnetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = afnet;
+			};
+			name = Debug;
+		};
+		CDFD0A2C1E1388CC00C5D8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = afnetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Xtiger.afnetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = afnet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDFD09F21E1388CC00C5D8B9 /* Build configuration list for PBXProject "afnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFD0A221E1388CC00C5D8B9 /* Debug */,
+				CDFD0A231E1388CC00C5D8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFD0A241E1388CC00C5D8B9 /* Build configuration list for PBXNativeTarget "afnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFD0A251E1388CC00C5D8B9 /* Debug */,
+				CDFD0A261E1388CC00C5D8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFD0A271E1388CC00C5D8B9 /* Build configuration list for PBXNativeTarget "afnetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFD0A281E1388CC00C5D8B9 /* Debug */,
+				CDFD0A291E1388CC00C5D8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFD0A2A1E1388CC00C5D8B9 /* Build configuration list for PBXNativeTarget "afnetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFD0A2B1E1388CC00C5D8B9 /* Debug */,
+				CDFD0A2C1E1388CC00C5D8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDFD09EF1E1388CC00C5D8B9 /* Project object */;
+}
